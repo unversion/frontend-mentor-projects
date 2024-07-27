@@ -1,13 +1,13 @@
 @font-face {
    font-weight: 400;
-   src: url('/fonts/Outfit/Outfit-Regular.ttf') format('truetype');
+   src: url('./fonts/Outfit/Outfit-Regular.ttf') format('truetype');
    font-family: 'Outfit';
    font-display: swap;
 }
 
 @font-face {
    font-weight: 700;
-   src: url('/fonts/Outfit/Outfit-Bold.ttf') format('truetype');
+   src: url('./fonts/Outfit/Outfit-Bold.ttf') format('truetype');
    font-family: 'Outfit';
    font-display: swap;
 }
@@ -27,8 +27,8 @@
    --ff-primary: 'Outfit', Verdana;
    --fw-reg: 400;
    --fw-bold: 700;
-   --fs-h1: 1.2rem;
-   --fs-body: .9375rem;
+   --fs-h1: 1.4rem;
+   --fs-body: 1rem;
 }
 
 body {
@@ -56,7 +56,7 @@ p {
    line-height: 1.5;
 }
 
-.container {
+main {
    display: flex;
    align-items: center;
    justify-content: center;
@@ -65,7 +65,7 @@ p {
 
 .qr-code {
    display: grid;
-   width: 350px;
+   width: 340px;
    padding: 1rem;
    gap: .5rem;
    border-radius: 1rem;
@@ -79,7 +79,7 @@ p {
 
 .qr-code__content {
    display: grid;
-   padding: 1.2rem;
+   padding: 1.1rem;
    padding-block-end: 1.3rem;
    gap: 1rem;
    text-align: center;
