@@ -18,7 +18,7 @@
     --clr-neutral-100: hsl(0, 0%, 100%);
     --clr-neutral-500: hsl(0, 0%, 42%);
     --clr-neutral-950: hsl(0, 0%, 7%);
-    --ff-primary: 'Figtree', sans-serif;
+    --ff-primary: 'Figtree', Trebuchet MS;
     --fs-300: .875rem;
     --fs-400: 1rem;
     --fs-500: 1.5rem;
