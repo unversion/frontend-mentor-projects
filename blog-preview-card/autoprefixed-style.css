@@ -16,7 +16,7 @@
 
 @font-face {
     font-weight: 300 900;
-    src: url('/assets/fonts/Figtree-VariableFont_wght.ttf') format('truetype-variations');
+    src: url('./assets/fonts/Figtree-VariableFont_wght.ttf') format('truetype-variations');
     font-family: 'Figtree';
     font-display: swap;
 }
@@ -76,7 +76,7 @@ a[class='blog-card__author-image'] {
         -ms-flex-direction: column;
             flex-direction: column;
     max-width: 375px;
-    padding: 1.2rem;
+    padding: 1.5rem;
     gap: 1.5rem;
     border: 1px solid var(--clr-neutral-950);
     border-radius: 1rem;
@@ -89,7 +89,7 @@ a[class='blog-card__author-image'] {
     max-width: 100%;
     min-height: 200px;
     border-radius: .75rem;
-    background-image: url('/assets/images/illustration-article.svg');
+    background-image: url('./assets/images/illustration-article.svg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -138,7 +138,7 @@ a[class='blog-card__author-image'] {
 
 .blog-card__body {
     color: var(--clr-neutral-500);
-    font-weight: 600;
+    font-weight: 550;
     font-size: clamp(.85rem, 3.4vw, var(--fs-400));
     line-height: 1.5;
 }
@@ -156,5 +156,5 @@ a[class='blog-card__author-image'] {
 
 .blog-card__author-name {
     font-weight: 850;
-    font-size: var(--fs-400);
+    font-size: clamp(.9rem, 3.2vw, var(--fs-300));
 }
